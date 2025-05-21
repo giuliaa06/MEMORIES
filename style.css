@@ -1,0 +1,151 @@
+/* 🌟 Generale */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #fce4ec, #e0f7fa);
+    color: #5a3e36;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🔹 Navbar */
+.navbar {
+    background: linear-gradient(to right, #f8bbd0, #b2ebf2);
+    padding: 15px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 12px 12px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #5a3e36;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* ✨ Hero */
+.hero {
+    background: linear-gradient(to top, #f8bbd0, #b2ebf2);
+    padding: 120px 20px; 
+    font-size: 1.8em;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 12px 12px;
+}
+
+/* 📜 Form Container */
+.form-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 12px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.form-container:hover {
+    transform: scale(1.03);
+}
+
+/* 📝 Input e Pulsanti */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+.btn-primary, .btn-secondary, .btn-like, .btn-back {
+    background: linear-gradient(to right, #f8bbd0, #b2ebf2);
+    color: #5a3e36;
+    padding: 12px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1.1em;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: fit-content;
+}
+
+.btn-primary:hover, .btn-secondary:hover, .btn-like:hover, .btn-back:hover {
+    background: linear-gradient(to right, #b2ebf2, #f8bbd0);
+    transform: scale(1.05);
+}
+
+/* 🎨 Card */
+.memory-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+    border: 2px solid #f8bbd0;
+    transition: transform 0.2s ease-in-out;
+}
+
+.memory-card:hover {
+    transform: scale(1.03);
+}
+/* 🌟 Nascondere il form di login all'inizio */
+.hidden {
+    display: none;
+}
+
+/* 🎨 Pulsante principale */
+.btn-primary {
+    background: linear-gradient(to right, #f8bbd0, #b2ebf2);
+    color: #5a3e36;
+    padding: 12px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1.1em;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: fit-content;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #b2ebf2, #f8bbd0);
+    transform: scale(1.05);
+}
+
+/* 📜 Testo "Non sei ancora registrato?" */
+.small-text {
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.small-text a {
+    color: #b37c50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.small-text a:hover {
+    color: #d9a86c;
+}
